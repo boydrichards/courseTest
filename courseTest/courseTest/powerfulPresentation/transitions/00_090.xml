@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<event>
+		<instance delay="0">textA</instance>
+		<instance delay=".25">textB</instance>
+		<instance delay=".25">textC</instance>
+		<instance delay=".25">textD</instance>
+		<instance delay=".25">textE</instance>
+		
+		<instance delay=".25">img2</instance>
+		<instance delay=".25">img4</instance>
+		<instance delay=".25">img6</instance>
+		<instance delay=".25">img7</instance>
+		<instance delay=".25">img9</instance>
+		<instance delay=".25">img11</instance>
+	</event>
+	<event>
+	</event>
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<event>
+		<instance delay = ".25">img1</instance>
+		<instance delay = ".5">img2</instance>
+		<instance delay = ".25">textA</instance>
+	</event>
+	<event>
+		<instance delay = ".5">img3</instance>
+	</event>
+	<event>
+	</event>
+</data>
