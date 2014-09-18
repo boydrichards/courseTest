@@ -1,0 +1,443 @@
+<course>
+	<courseSetup>
+		<title>Healthy Practices</title>
+		<background>HealthyPractices/img/background.png</background>
+	</courseSetup>
+
+	<page>
+		<view>00_010</view>
+		<title>Healthy Practices</title>
+		<textA>THE BASIC INS AND OUTS OF NUTRITION, EXERCISE, AND SAFETY ON THE JOB</textA>
+		<img>HealthyPractices/img/00_010-1.png</img>
+		<img>HealthyPractices/img/00_010-2.png</img>
+	</page>
+	
+	<page>
+		<view>00_020</view>
+		<textA>Introduction</textA>
+		<textB>Rate yourself on each statement below. Click and drag the dot to the number you feel best fits you. When you are finished, click the done button below.</textB>
+		<textC>1) I am focused and energetic throughout the day.</textC>
+		<textD>2) I exercise on a daily basis.</textD>
+		<textE>3) I eat healthy foods</textE>
+		<textE2>(fruits, vegitables, whole grains, home cooked, etc.)</textE2>
+		<textF>4) I get 7-8 hours of sleep a night.</textF>
+		<textG>5) I follow job safety guidelines on a regualr basis.</textG>
+		<textH>6) Overall, I feel generally healthy and well.</textH>
+		<textJ>Never</textJ>
+		<textI>Often</textI>
+		<textK>DONE</textK>
+		<textL>Your Score:</textL>
+		<textM>1</textM>
+		<textN>2</textN>
+		<textO>3</textO>
+		<textP>4</textP>
+		<textQ>5</textQ>
+		<img>HealthyPractices/img/00_020-1.png</img>
+		<audio>audio/eng/00_021.mp3</audio>
+		<audio>audio/eng/00_021.mp3</audio>
+		<audio1>audio/eng/00_022.mp3</audio1>
+		<audio2>audio/eng/00_023.mp3</audio2>
+		<audio3>audio/eng/00_024.mp3</audio3>
+	</page>
+	<page>
+		<view>00_030</view>
+		<textA>Course Overview</textA>
+		<textB>1.  Nutrition</textB>
+		<textB1>2.  Exercise</textB1>
+		<textB2>3.  Safety</textB2>
+		<textC>Course Test</textC>
+		<textD>Passing score:</textD>
+		<textE>80%</textE>
+		<textF>You can take the test as many times as needed.</textF>
+		<textG>35 minutes to complete.</textG>
+		<imgA>HealthyPractices/img/00_030.png</imgA>
+		<imgB>HealthyPractices/img/00_031.png</imgB>
+		<audio>audio/eng/00_030.mp3</audio>
+		<audio>audio/eng/00_031.mp3</audio>
+		<audio>audio/eng/00_032.mp3</audio>
+		<audio>audio/eng/00_033.mp3</audio>
+		<audio>audio/eng/00_034.mp3</audio>
+	</page>
+	<page>
+		<view>00_040</view>
+		<textA>MEET STEPHEN</textA>
+		<textB>Click the arrows on the left and right sides of the screen.</textB>
+		<textC>1             2             3             4             5             6             7</textC>
+		<textD>Stephen</textD>
+		<textE>Jason</textE>
+		<textF>I don't understand, Frank.  I mean, I'm not overweight and I don't have unhealthy eating habits.  How could I have done so badly on my annual physical?</textF>
+		<textG>The doctor told me I have high cholesterol and that I should start watching my weight!  I just don't see how I could have gotten here!</textG>
+		<textH>I know how you feel.  I have a checkup with the doctor pretty soon, and I'm afraid he'll tell me the same thing.  Do you exercise?</textH>
+		<textI>I wish I had time to exercise, but with work and my family, I just don't have time!</textI>
+		<textJ>I've tried fad diets before, and those just make me even more tired and irritable.</textJ>
+		<textK>My supervisor even wrote me up for being unsafe at work!</textK>
+		<textL>I don't want to do anything extreme like another fad diet; I just don't know what else to try!</textL>
+		<textM>Click Next to continue.</textM>
+		<imgA>HealthyPractices/img/00_040.png</imgA>
+		<imgB>HealthyPractices/img/00_041.png</imgB>
+		<imgC>HealthyPractices/img/00_042.png</imgC>
+		<imgD>HealthyPractices/img/00_043.png</imgD>
+		<audio>audio/eng/00_040.mp3</audio>
+		<audio>audio/eng/00_041.mp3</audio>
+	</page>
+	<page>
+		<view>00_050</view>
+		<textA>Stephen</textA>
+		<textB>(continued)</textB>
+		<textC>A few basic tips that can </textC>
+		<textD>increase your energy and focus </textD>
+		<textE>decrease your cholesterol and blood pressure </textE>
+		<textF>strengthen your immune system</textF>
+		<textG>achieve your ideal weight and body mass</textG>
+		<imgA>HealthyPractices/img/00_050.png</imgA>
+		<imgB>HealthyPractices/img/00_051.png</imgB>
+		<imgC>HealthyPractices/img/00_052.png</imgC>
+		<audio>audio/eng/00_050.mp3</audio>
+		<audio>audio/eng/00_051.mp3</audio>
+		<audio>audio/eng/00_052.mp3</audio>
+		<audio>audio/eng/00_053.mp3</audio>
+		<audio>audio/eng/00_054.mp3</audio>
+		<audio>audio/eng/00_055.mp3</audio>
+	</page>
+	<page>
+		<view>00_060</view>
+		<textA>Section One</textA>
+		<textB>NUTRITION</textB>
+		<imgA>HealthyPractices/img/00_060.png</imgA>
+		<imgB>HealthyPractices/img/00_061.png</imgB>
+	</page>
+	<page>
+		<view>00_070</view>
+		<textA>HEALTHY PRACTICES IN NUTRITION</textA>
+		<textB>Five Basic Nutrition Tips</textB>
+		<textC>1.  Don't think like a caveman</textC>
+		<textD>2.  Control your portion sizes</textD>
+		<textE>3.  Eat naturally</textE>
+		<textF>4.  Drink plenty of water</textF>
+		<textG>5.  Be patient with yourself</textG>
+		<imgA>HealthyPractices/img/00_070.png</imgA>
+		<imgB>HealthyPractices/img/00_071.png</imgB>
+		<audio>audio/eng/00_070.mp3</audio>
+		<audio>audio/eng/00_071.mp3</audio>
+		<audio>audio/eng/00_072.mp3</audio>
+		<audio>audio/eng/00_073.mp3</audio>
+		<audio>audio/eng/00_074.mp3</audio>
+		<audio>audio/eng/00_075.mp3</audio>
+	</page>
+	<page>
+		<view>00_080</view>
+		<textA>Don't Think Like a Caveman</textA>
+		<imgA>HealthyPractices/img/00_080.png</imgA>
+		<imgB>HealthyPractices/img/00_081.png</imgB>
+		<imgC>HealthyPractices/img/00_082.png</imgC>
+		<imgD>HealthyPractices/img/00_083.png</imgD>
+		<audio>audio/eng/00_080.mp3</audio>
+		<audio>audio/eng/00_081.mp3</audio>
+		<audio>audio/eng/00_082.mp3</audio>
+	</page>
+	<page>
+		<view>00_090</view>
+		<textA>DON'T THINK LIKE A CAVEMAN</textA>
+		<textB>Click the buttons below to learn more. You must click each button to continue.</textB>
+		<textC>Set Limits</textC>
+		<textD>Stay Away</textD>
+		<textE>Just Enough</textE>
+		<textF>Before you even arrive, set a limit on how much food you are going to eat.  Then stick to it.</textF>
+		<textG>Stand far away from the serving area, slowly enjoying your food.</textG>
+		<textH>You just need enough energy to survive until the next meal.</textH>
+		<imgA>HealthyPractices/img/00_090.png</imgA>
+		<imgB>HealthyPractices/img/00_091.png</imgB>
+		<imgC>HealthyPractices/img/00_092.png</imgC>
+		<imgD>HealthyPractices/img/00_093.png</imgD>
+		<imgE>HealthyPractices/img/00_094.png</imgE>
+		<imgF>HealthyPractices/img/00_095.png</imgF>
+		<imgG>HealthyPractices/img/00_096.png</imgG>
+		<imgH>HealthyPractices/img/00_097.png</imgH>
+		<imgI>HealthyPractices/img/00_098.png</imgI>
+		<imgJ>HealthyPractices/img/00_010-1.png</imgJ>
+		<audio>audio/eng/00_090.mp3</audio>
+		<audio1>HealthyPractices/audio/eng/00_091.mp3</audio1>
+		<audio2>HealthyPractices/audio/eng/00_092.mp3</audio2>
+		<audio3>HealthyPractices/audio/eng/00_093.mp3</audio3>
+	</page>
+	<page>
+		<view>00_100</view>
+		<textA>Control Portion Size</textA>
+		<textB>SAD:</textB>
+		<textC>Standard American Diet</textC>
+		<imgA>HealthyPractices/img/00_100.png</imgA>
+		<imgB>HealthyPractices/img/00_101.png</imgB>
+		<imgC>HealthyPractices/img/00_102.png</imgC>
+		<audio>audio/eng/00_100.mp3</audio>
+		<audio>audio/eng/00_101.mp3</audio>
+		<audio>audio/eng/00_102.mp3</audio>
+	</page>
+	<page>
+		<view>00_110</view>
+		<textA>Don't Think Like a Caveman</textA>
+		<imgA>HealthyPractices/img/00_080.png</imgA>
+		<imgB>HealthyPractices/img/00_081.png</imgB>
+		<imgC>HealthyPractices/img/00_082.png</imgC>
+		<imgD>HealthyPractices/img/00_083.png</imgD>
+		<audio>audio/eng/00_080.mp3</audio>
+		<audio>audio/eng/00_081.mp3</audio>
+		<audio>audio/eng/00_082.mp3</audio>
+		<!--
+		<textA>Control Portion Size</textA>
+		<textB>Click each number. You must click all of the numbers to continue.</textB>
+		<textC>Change the size of your plate.</textC>			
+		<textD>We tend to enjoy things more when they're full, so rather than piling mounds of food onto a hubcap-sized platter, just grab a child- or lunch-size plate instead.  The plate is smaller, so you'll think you're eating just as much even though you've greatly reduced your portions.</textD>
+		<textE>Use mugs for cereal.</textE>
+		<textF>Use small coffee mugs rather than soup bowls to eat your cereal in the morning.  </textF>
+		<textG>Box half your meal.</textG>
+		<textH>At a restaurant, once your meal is delivered just cut it in half and have the waiter box up half of the dish for another meal.  </textH>
+		<textI>Eat a snack.</textI>
+		<textJ>Another great way to trick yourself into eating less at the restaurant is by eating a small snack just before you leave.  You'll satisfy at least part of your hunger with the snack, so when you're sitting with a dinner menu in your hands an hour later, you won't feel so enthusiastic to order the quadruple-decker five-cheese lasagna and will instead have something more moderate.</textJ>
+		<textK>Chew food thoroughly.</textK>
+		<textL>Eat slowly, being certain to chew your food thoroughly before swallowing.  It takes up to 20 minutes for your brain to finally recognize that it's full, so if you eat slowly you'll recognize you're satisfied just as fast as you would if you ate quickly.  And the best part is that you won't feel like you're about to pop like a balloon twenty minutes after the meal.  Make it a game by trying to eat slower than the slowest eater on the table.</textL>
+		-->
+	</page>
+	<page>
+		<view>00_120</view>
+		<textA>HEALTHY EATING AT WORK</textA>
+		<textB>Shopping at a grocery store</textB>
+		<textC>Buying Processed food</textC>
+		<textD>Reading Labels</textD>
+		<textE>Fresh Food</textE>
+		<textF>Eating Healthy food</textF>
+	</page>
+	<page>
+		<view>00_130</view>
+		<textA>Click each water bottle to learn more.</textA>
+		<textA1>You must click each water bottle to continue.</textA1>
+			
+		<textB>Natural lubricant for bones and muscles.</textB>
+		<textC>Removes natural toxins.</textC>
+		<textD>Can help control calorie intake.</textD>
+		<textE>Thirst sometime masquerades as hunger.</textE>
+		<textF>By the time we feel thirsty, we are already dehydrated.</textF>
+			
+		<textG>You will not lose weight in the long run if you are dehydrated.</textG>
+		
+		<textH>Carbonated drinks make you less hydrated.</textH>
+		<textI>Juice, lemonade, and energy drinks are full of sugar and artificial ingredients.</textI>
+			
+		<textJ>Drink eight glasses a day</textJ>
+		<textK>Or drink half your weight in ounce daily.</textK>
+		
+		<textL>Carry a water bottle.</textL>
+		<textM>Take short drinking fountain breaks.</textM>
+			
+		<textN>Visits to the restroom will decrease as your body reaches optimum hydration.</textN>
+		<audio1><url>audio/eng/00_131.mp3</url></audio1>
+		<audio2><url>audio/eng/00_132.mp3</url></audio2>
+		<audio3><url>audio/eng/00_133.mp3</url></audio3>
+		<audio4><url>audio/eng/00_134.mp3</url></audio4>
+		<audio5><url>audio/eng/00_135.mp3</url></audio5>
+		<audio6><url>audio/eng/00_136.mp3</url></audio6>
+		<audio7><url>audio/eng/00_137.mp3</url></audio7>
+		<audio8><url>audio/eng/00_138.mp3</url></audio8>
+		<audio9><url>audio/eng/00_139.mp3</url></audio9>
+		<audio10><url>audio/eng/00_139a.mp3</url></audio10>
+		<audio11><url>audio/eng/00_139b.mp3</url></audio11>
+		<audio12><url>audio/eng/00_139c.mp3</url></audio12>
+		<audio13><url>audio/eng/00_139d.mp3</url></audio13>
+		<audio14><url>audio/eng/00_139e.mp3</url></audio14>
+	</page>
+	<page>
+		<view>00_140</view>
+		<textA>Be Patient with Yourself</textA>
+	</page>
+	<page>
+		<view>00_150</view>
+		<textA>Check Your Understanding</textA>
+		<textB>True</textB>
+		<textC>False</textC>
+		<textD>Staying close to the buffet table at a party is a good idea, because it stimulates your willpower.</textD>
+		<textE>Drinking lots of water is bad because you gain water weight.</textE>
+		<textF>Processed food speeds up your metabolism, because it gives lots of fats and sugars.</textF>
+		<textG>Eat your food quickly.  It helps your stomach get started faster.</textG>
+		<textH>If you don't start to lose weight two weeks after starting, you shouldn't give up.</textH>
+		<textI>Click the best answers below and then click submit. You must answer each question to continue.</textI>
+		<textJ>Submit</textJ>
+		<textK>You must answer all the questions to continue. Close this comment box and answer any remaining questions to proceed.</textK>
+	</page>
+	<page>
+		<view>00_170</view>
+		<textA>Exercise</textA>
+		<textB>Section Two</textB>
+	</page>
+	<page>
+		<view>00_180</view>
+		<textA>Healthy Practices in Exercise</textA>
+	</page>
+	<page>
+		<view>00_190</view>
+		<textA>How Much Do You Know About Exercise?</textA>
+		<textB>What does "fit" mean?</textB>
+		<textC>Definition of fit (adjective):</textC>
+		<textD>a. Adapted to an end or design : suitable by nature or by art</textD>
+		<textE>b. Adapted to the environment so as to be capable of surviving</textE>
+		<textF>c. Acceptable from a particular viewpoint (as of competence or morality)</textF>
+		<textG>a. Put into a suitable state : made ready</textG>
+		<textH>b. Being in such a state as to be or seem ready to do or suffer something</textH>
+		<textI>Sound physically and mentally: healthy</textI>
+		<textJ>Can adapt to any situation.</textJ>
+		<textK>Is ready and able to perform any task necessary.</textK>
+		<textL>Is physically and mentally stable.</textL>
+		<text1>1.</text1>
+		<text2>2.</text2>
+		<text3>3.</text3>
+		<textZ>More</textZ>
+		<textAA>You must click More to continue.</textAA>
+		<audio1><url>audio/eng/00_192.mp3</url></audio1>
+		<audio2><url>audio/eng/00_193.mp3</url></audio2>
+		<audio3><url>audio/eng/00_194.mp3</url></audio3>
+		<audio4><url>audio/eng/00_195.mp3</url></audio4>
+		<audio5><url>audio/eng/00_196.mp3</url></audio5>
+	</page>
+	<page>
+		<view>00_200</view>
+		<textA>Exercise Methods</textA>
+		<textB>Aerobic or Cardio | </textB>
+		<textC>Strength Training</textC>
+		<textD>Flexibility </textD>
+		<textE>Balance</textE>	
+	</page>
+	<page>
+		<view>00_210</view>
+		<textA>Aerobic Exercise</textA>
+		<textB>Definition</textB>
+		<textC>Easy Exercises</textC>
+		<textD>Important Fact</textD>
+		<textE>Aerobic exercise is exercise that stimulates the cardiopulmonary system, the heart, and lungs.  It generally includes walking, running, biking, or something similar.</textE>
+		<textF>Easy Aerobic Exercises</textF>
+		<textG>When going to work, school, or even the store, park your car as far away from the building as possible. You will get a short walk that, although it seems small, really will help develop your heart and lungs.</textG>
+		<textH>Every morning before you take a shower or bath, walk or run up and down the stairs a few times.  It will give you a pretty good exercise that will not only strengthen your lungs but also your legs.</textH>
+		<textI>If you live closer to your job, you could ride a bike to work.  You will save money by not wasting gasoline, and you will get a great workout.</textI>
+		<textJ>Endurance and Stamina</textJ>
+		<textK>Cardio or aerobic exercise is great to build your endurance and stamina. When you notice that you are feeling a bit tired and sluggish, a 30-60 second burst of cardio followed by a 30-60 second recovery time (rest) can strengthen your heart and improve your energy.</textK>
+		<text1>Definition</text1>
+	</page>
+	<page>
+		<view>00_220</view>
+		<textA>Strength Training</textA>
+		<textB>Definition</textB>
+		<textC>Easy Exercises</textC>
+		<textD>Important Fact</textD>
+		<textE>Strength training is exercise that stimulates muscle growth.  It generally includes the lifting or pushing of weight.</textE>
+		<textF>Easy Strength Training Exercises </textF>
+		<textG>Before taking a shower in the morning, do a few push-ups by lying flat on your stomach and, while keeping your back as straight as possible, pushing your body off the ground with your arms.  If you find you're too weak to do that, don't worry!  You can make it easier by pushing off from a wall or raised surface, your body slightly diagonal.</textG>
+		<textH>Work out your arms by filling a backpack with some books or rocks and lifting it with one hand.</textH>
+		<textI>Do some squats when you wake up.  It's easy and it helps you wake up!</textI>
+		<textJ>Grab anything you want and lift it.  Remember, you can make an exercise out of anything you can imagine!</textJ>
+		<textK>Burning Calories</textK>
+		<textL>Strength training (which builds muscle) actually burns more calories overall than cardio. Muscle burns more calories than fat, so tone those arms and legs and you will be burning calories while you sit at your desk or sleep at night!</textL>
+	</page>
+	<page>
+		<view>00_230</view>
+		<textA>Flexibility Training</textA>
+		<textB>Definition</textB>
+		<textC>Easy Exercises</textC>
+		<textD>Important Fact</textD>
+		<textE>Flexibility training is doing exercises that help improve your flexibility and balance.  It generally includes standing on one foot, stretching your body, and similar movements.</textE>
+		<textF>Easy Flexibility Exercises</textF>
+		<textG>Yoga is a great way to develop flexibility and balance.  It's easy to learn but hard to perfect, which means you'll be able to do the same few exercises for a long time.  Just spend ten minutes each day on your favorite exercises.</textG>
+		<textH>Do some stretching when you get tired at work.  Stand up straight and, only bending your waist, try to touch your toes.</textH>
+		<textK>Being Ready for Everyday Life</textK>
+		<textL>Increasing your flexibility and balance allows your body to respond and adapt more quickly and easily to the demands of everyday life. </textL>
+	</page>
+	<page>
+		<view>00_240</view>
+		<textA>YOUR EXERCISE PROGRAM</textA>
+		<textB>Alternating days with strength and flexibility training.</textB>
+		<textC>Aerobic</textC>
+		<textD>Strength</textD>
+		<textE>Flexibility</textE>
+		<textF>3 to 5 times a week</textF>
+		<textG>Alternating days</textG>
+	</page>
+	<page>
+		<view>00_260</view>
+		<textA>Safety</textA>
+		<textB>Section Three</textB>
+	</page>
+	<page>
+		<view>00_270</view>
+		<textA>Healthy Practices in Safety</textA>
+	</page>
+	<page>
+		<view>00_280</view>
+		<textA>COMMON SAFETY RULES</textA>
+		<textB>Click the arrows on the left and right of the screen.</textB>
+		<textC>Walk at all times within buildings and be careful going through doors.  You'll greatly decrease the chance of an accident or injury if you avoid running and jumping indoors.</textC>
+		<textD>Keep your work area clean.  Aside from the possible dangers it could avoid, it will keep you more organized and presentable.</textD>
+		<textE>Don't touch any equipment you haven't been trained or given permission to use.  While using equipment or machinery, be aware that loose clothing and jewelry can get caught inside.</textE>
+		<textF>Don't drive or operate machinery if you are drunk, extremely fatigued, or distracted. (Even a tie can get caught in a shredder when you aren't paying attention.)</textF>
+		<textG>Smoke only in designated areas, and make sure that the product has been completely extinguished when you finish.</textG>
+		<textH>Be aware of flammable materials that can catch on fire, like gas, oil, paint thinner, etc.</textH>
+		<textI>If you need to lift something, make sure you lift with your legs, not your back.  If something is too heavy, don't be afraid to ask for help.</textI>
+		<textJ>Don't try to reach something by standing on a swivel chair. Often seen as common sense, but many people do it anyway.</textJ>
+		<textK>Know what to do in case of an emergency. Pay attention during emergency drills, so you know where emergency exits and designated rendezvous areas are.</textK>
+		<textL>Walk at All Times</textL>
+		<textM>Keep your Work Area Clean</textM>
+		<textN>Don't Touch</textN>
+		<textO>Don't Drive</textO>
+		<textP>Designated Areas Only</textP>
+		<textQ>Be Aware</textQ>
+		<textR>Lift with Your Legs</textR>
+		<textS>Use Common Sense</textS>
+		<textT>Emergency Drills</textT>
+		<text1>1</text1>
+		<text2>2</text2>
+		<text3>3</text3>
+		<text4>4</text4>
+		<text5>5</text5>
+		<text6>6</text6>
+		<text7>7</text7>
+		<text8>8</text8>
+		<text9>9</text9>
+	</page>
+	<page>
+		<view>00_290</view>
+		<textA>More Information</textA>
+		<textB>Occupational Safety and Health Administration</textB>
+		<textC>www.osha.gov</textC>
+	</page>
+	<page>
+		<view>00_300</view>
+		<textA>Common Sense</textA>
+	</page>
+	<page>
+		<view>01_020</view>
+		<textA>Course Summary</textA>
+			<textB>Review the summary then click Next.&#xD;&#xD;NUTRITION&#xD;&#xD;There are five basic steps to becoming more nutrition-conscious.&#xD;&#xD;1. Don't be a caveman by eating whenever you have the opportunity.  Limit yourself to eating only a few times a day and stop yourself when you know you're full. Change your mindset, and your actions will follow.&#xD;&#xD;2. Control your portions by tricking your brain.  Use smaller cups and plates, and chew your food slowly.&#xD;&#xD;3. Eat naturally by avoiding processed foods in the supermarket and sticking to fruits, vegetables, beans, and meats.  Natural whole food is cheaper and more nutrient-dense than processed foods, so you'll be getting more for your money.&#xD;&#xD;4. Drink plenty of water by keeping a bottle of water near you at all times and drink it throughout the day.&#xD;&#xD;5. Be patient with yourself!  You'll see results over time, not in a few days, so don't lose hope!&#xD;&#xD;EXERCISE&#xD;&#xD;Even the smallest exercise can help your body in many ways.&#xD;&#xD;Types of exercise&#xD;1.	Aerobic&#xD;2.	Strength&#xD;3.	Flexibility&#xD;&#xD;Don't give up when you don&apos;t see immediate results.  Remember, be patient with yourself.&#xD;&#xD;SAFETY&#xD;&#xD;Use your common sense and remember a good motto to follow regarding safety ' whether it&apos;s on the job or anywhere &#8211; is &quot;Safety is as easy as ABC: Always Be Careful.&quot;&#xD;&#xD;Don&apos;t wait until tomorrow to start healthy practices.  Begin right now!</textB>
+	</page>
+	<page>
+		<view>01_030</view>
+		<textA>Course Test</textA>
+		<textB>Minimum passing score</textB>
+		<textC>%</textC>
+		<textD>Take the test as many times as you need to get a passing score. </textD>
+		<textE>Click Next when you are ready to begin.</textE>
+	</page>
+	<page>
+		<view>01_040</view>
+	</page>
+	<page>
+		<view>01_050</view>
+		<textA>I'm sorry, but you didn't pass the test.</textA>
+		<textB>Return to the beginning, review the course, and take the test again.</textB>
+		<textC>Congratulations! You passed!</textC>
+		<textD>Click Next to complete the course.</textD>
+		<textE>Return to Beginning of Course</textE>
+		<textF>Take Test Again</textF>
+		<textG>Your Score:</textG>
+		<textH>%</textH>
+	</page>
+	<page>
+		<view>01_060</view>
+		<textA>Congrats!</textA>
+		<textB>You Passed</textB>
+	</page>
+</course>
