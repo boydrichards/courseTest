@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<event>
+		<instance delay = ".25">img1</instance>
+		<instance delay = ".5">img2</instance>
+		<instance delay = ".25">textA</instance>
+		<instance delay = ".5">textB</instance>
+	</event>
+		<instance delay = ".5">textB</instance>
+	<event>
+		<instance delay = ".5">textC</instance>
+	</event>
+	<event>
+		<instance delay = ".5">textD</instance>
+	</event>
+	<event>
+		<instance delay = ".5">textE</instance>
+	</event>
+	<event>
+		<instance delay = ".5">textF</instance>
+	</event>
+	<event>
+		<instance delay = ".5">textG</instance>
+	</event>
+	<event>
+	</event>
+</data>
