@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
 	<event>
-		<instance delay = ".25">img2</instance>
-		<instance delay = ".25">textA</instance>
-		<instance delay = ".25">textB</instance>
-		<instance delay = ".75">img3</instance>
-	</event>
-	<event>
-		<instance delay = "0">img4</instance>
+		<instance delay = ".1">textA</instance>
+		<instance delay = ".2">textB</instance>
+		<instance delay = ".3">s1_a</instance>
+		<instance delay = ".4">textC</instance>
+		<instance delay = ".5">s1_b</instance>
+		<instance delay = ".6">textD</instance>
+		<instance delay = ".7">s1_c</instance>
+		<instance delay = ".8">textH</instance>
 	</event>
 </data>

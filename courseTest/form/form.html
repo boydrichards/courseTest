@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flash Tutorials 101</title>
+<link rel="stylesheet" href="../css/formStyles.css" type="text/css">
+<link rel="stylesheet" href="../css/stylesheet.css" type="text/css">
+
+<script language="JavaScript" type="Text/JavaScript">
+	function validate(){
+		var isComplete = true;
+		var message = "There is an error in the form. Please fill the following fields to continue: ";
+		if(document.ReqInformation.personName.value.length == 0)
+		{
+			isComplete = false;	
+			message += "\n\nA name is required to continue. ";
+		}if(document.ReqInformation.personEmail.value.length == 0){
+			isComplete = false;
+			message += "\n\nA valid email is required to continue. ";
+		}if(document.ReqInformation.personPhone.value.length == 0){
+			isComplete = false;
+			message += "\n\nA phone number is required to continue. ";
+		}if(document.ReqInformation.personMessage.value == "Enter response here"){
+			isComplete = false;
+			message += "\n\nA description is required to continue. ";
+		}
+		if(isComplete == false)
+		{
+			alert(message);
+			return false;
+		}
+	}
+</script>
+
+<style type="text/css">
+.error{
+	background_color:#C33;
+}
+</style>
+</head>
+<body>
+<h1>Richards Building Solutions</h1>
+
+
+<p class="menu">
+<a href = "../index.html">Home</a> | 
+<a href = "../about/about.html">About</a> |
+<a href = "../gallery/gallery.html">Gallery</a> |
+<a href = "form.html">Contact</a> 
+
+</p>
+<h2>Requesting more information</h2>
+<aside class="leftSide">
+		<h3 id="iDo">Examples of what I have done.</h3>
+			<p id="ParAbout">To the left are example pages from our "Off the Shelve" learning courses.</p>
+</aside>
+<form action="FormToEmail.php" name="ReqInformation" method="POST" enctype="multipart/form-data" onSubmit="return validate()">
+<fieldset>
+<legend>Personal Information</legend>
+<label>Name:<input type="text" name="personName" value="" class="nonRadio"/></label><br />
+<label>Email:<input type="text" name="personEmail" value="" class="nonRadio"/></label><br />
+<label>Phone number:<input type="text" name="personPhone" value="" class="nonRadio"/></label><br />
+</fieldset>
+
+<fieldset>
+	<legend>What is your timeFrame?</legend>
+	<label>Please choose
+	<select name="timeFrame" class="nonRadio">
+	<option value="---">Please Select</option>
+	<option value="less2">less than 2 weeks</option>
+	<option value="2Week">2 weeks</option>
+	<option value="month">1 month</option>
+	<option value="26month">2 - 6 months</option>
+	<option value="more6">over 6 months</option>
+	</select>
+	</label>
+</fieldset>	
+<img id="learningImg" src="../images/learning.jpg" alt="Enspark learning">
+<fieldset>
+<legend>Description of work</legend>
+<label>Please describe what you need<textarea name="personMessage" id="textField">Enter response here</textarea></label>
+<div class="extraSpaceTall"></div>
+</fieldset>
+
+
+<input type="submit" name="button" value="Submit" class="submitBtn"/>
+<input type="hidden" name="subject" value="Proposal Request"/>
+<!--
+<input type="hidden" name="redirect" value="thanks.html" />
+-->
+</form>
+<div class="openSpace"></div>
+<p class="footer">&#169;ENSPARK, 2013 &#8226; boyd@enspark.com &#8226; Provo UT</p>
+</body>
+</html>

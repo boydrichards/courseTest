@@ -10,6 +10,7 @@ function Ctrl_00_030($scope,playFactory){
 	$scope.textB = $scope.getXMLNode("textB",1);
 	$scope.textB1 = $scope.getXMLNode("textB1",1);
 	$scope.textB2 = $scope.getXMLNode("textB2",1);
+	$scope.textB3 = $scope.getXMLNode("textB3",1);
 	$scope.textC = $scope.getXMLNode("textC",1);
 	$scope.textD = $scope.getXMLNode("textD",1);
 	$scope.textE = $scope.getXMLNode("textE",1);
@@ -18,13 +19,13 @@ function Ctrl_00_030($scope,playFactory){
 	$scope.img1 = $scope.getXMLNode("imgA",1);
 	$scope.img2 = $scope.getXMLNode("imgB",1);
 	$scope.playFactory = playFactory;
-	
+
 	var pageLoadCounter = 0;
 	var currentAudio = 0;
 	var tempAudioArray = Array($scope.pageXML.getElementsByTagName("audio"));
 	var audioArray = Array();
-	var pageLoadArray = [textA,textB,textB1,textB2,textC,textD,img1,textE,textF,img2,textG];
-	
+	var pageLoadArray = [textA,textB,textB1,textB2,textB3,textC,textD,img1,textE,textF,img2,textG];
+
 	//loading xml
 	if (window.XMLHttpRequest){
 		// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -33,10 +34,10 @@ function Ctrl_00_030($scope,playFactory){
 		// code for IE6, IE5
 		newXmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 	}
-	newXmlhttp.open("GET","HealthyPractices/transitions/00_030.xml",false);
+	newXmlhttp.open("GET","powerfulPresentation/transitions/00_030.xml",false);
 	newXmlhttp.send();
 	transitionsXMLDoc = newXmlhttp.responseXML; 
-
+console.log("4");
 	// Get nodes
 	var xmlTransitionEventArray = transitionsXMLDoc.getElementsByTagName("event");
 
@@ -58,12 +59,13 @@ function Ctrl_00_030($scope,playFactory){
 		console.log("I am in alpha out");
 		for(var i = 0; i < xmlTransitionEventArray.length; i++)
 		{
-			//console.log("I am in tempFunction and this is i: " + i);
-			//console.log(xmlTransitionEventArray[i]);
+			console.log("I am in tempFunction and this is i: " + i);
+			console.log(xmlTransitionEventArray[i]);
 			var tempArray = xmlTransitionEventArray[i].getElementsByTagName("instance");
 			for(var j = 0; j < tempArray.length; j++)
 			{
 				var nodeValue = xmlTransitionEventArray[i].getElementsByTagName("instance")[j].childNodes[0].nodeValue;
+				console.log("This is nodeValue: " + nodeValue);
 				var delayTime = tempArray[j].attributes.getNamedItem("delay").value;
 				for(var k = 0; k < pageLoadArray.length; k++)
 				{
@@ -152,6 +154,12 @@ function Ctrl_00_030($scope,playFactory){
 		top: 223px;
 		height: 50px;
 	}
+	p#textB3{
+		position:absolute;
+		left: 145px;
+		top: 248px;
+		height: 50px;
+	}
 	
 	p#textC{
 		position:absolute;
@@ -212,6 +220,7 @@ function Ctrl_00_030($scope,playFactory){
 <p class="bodyText" id="textB">{{textB}}</p>
 <p class="bodyText" id="textB1">{{textB1}}</p>
 <p class="bodyText" id="textB2">{{textB2}}</p>
+<p class="bodyText" id="textB3">{{textB3}}</p>
 <p class="bodyText" id="textC">{{textC}}</p>
 <p class="bodyText" id="textD">{{textD}}</p>
 <p class="bodyText" id="textE">{{textE}}</p>

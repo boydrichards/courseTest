@@ -2,12 +2,11 @@
 function Ctrl_00_060($scope,playFactory){
 	$scope.textA = $scope.getXMLNode("textA",1);
 	$scope.textB = $scope.getXMLNode("textB",1);
-	$scope.img1 = $scope.getXMLNode("imgA",1);
-	$scope.img2 = $scope.getXMLNode("imgB",1);
-	$("#player").css("background-image","url(" + $scope.img1 + ")");
+	$scope.imgA = $scope.getXMLNode("imgA",1);
+	$scope.imgB = $scope.getXMLNode("imgB",1);
 	
 	var pageLoadCounter = 0;
-	var pageLoadArray = [textA,textB,img2];
+	var pageLoadArray = [textA,textB,imgB];
 	//load transition
 	if (window.XMLHttpRequest){
 		// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -16,7 +15,7 @@ function Ctrl_00_060($scope,playFactory){
 		// code for IE6, IE5
 		newXmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 	}
-	newXmlhttp.open("GET","HealthyPractices/transitions/00_060.xml",false);
+	newXmlhttp.open("GET","powerfulPresentation/transitions/00_060.xml",false);
 	newXmlhttp.send();
 	transitionsXMLDoc = newXmlhttp.responseXML; 
 	// Get event nodes
@@ -87,14 +86,26 @@ function Ctrl_00_060($scope,playFactory){
 <style>
 p.pageTitle
 {
-    position:absolute;
-	left: 550px;
-	top: 125px;
-	font-size: 24px;
-	color: #ffffff;
-	text-align: center;
-	width: 335px;
-	font-style:italic;
+	font-size: 36px;
+	color: #E21717;
+	text-align: left;
+	text-shadow: 0.03em 0.0em 0.05em #333;
+	margin: 0px;
+	position: absolute;
+	top: 97px;
+	left: 80px;
+	font-weight: bold;
+}
+
+p#textB{
+	position: absolute;
+	top: 144px;
+	color: #990000;
+	font-size: 14px;
+	margin: 0px;
+	left: 80px;
+	text-align: left;
+	width: 300px;
 }
 p.pageContent
 {
@@ -108,13 +119,21 @@ p.pageContent
 	line-height:90%;
 	text-align: center;
 }
-img#img2
+img#imgA
 {
 	position:absolute;
-	left: 0px;
-	top: 75px;
+	left: 730px;
+	top: 100px;
+}
+
+img#imgB
+{
+	position:absolute;
+	left: 40px;
+	top: 100px;
 }
 </style>
-<img id="img2" ng-src="{{img2}}"/>
+<img id="imgA" ng-src="{{imgA}}"/>
+<img id="imgB" ng-src="{{imgB}}"/>
 <p class="pageTitle" id="textA">{{textA}}</p>
 <p class="pageContent" id="textB">{{textB}}</p>

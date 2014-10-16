@@ -1,27 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
 	<event>
-		<instance delay="0">img1</instance>
-		<instance delay=".25">textA</instance>
-		<instance delay=".5">textB</instance>
-		<instance delay=".75">img2</instance>
-		<instance delay="1">img3</instance>
+		<instance delay = "0">textA</instance>
+		<instance delay = ".25">imgA</instance>
+		<instance delay = ".5">imgB</instance>
+		<instance delay = ".75">textB</instance>
+	</event>
+	
+	<event>
+		<instance delay = "0">textC</instance>
 	</event>
 	<event>
-		<instance delay="5.5">textC</instance>
+		<instance delay = "0">textD</instance>
 	</event>
 	<event>
-		<instance delay="0">textD</instance>
+		<instance delay = "0">textE</instance>
 	</event>
 	<event>
-		<instance delay="0">textE</instance>
+		<instance delay = "0">textF</instance>
+		<instance delay = "1">textG</instance>
 	</event>
 	<event>
-		<instance delay="0">textF</instance>
+		<instance delay = "0">imgC</instance>
+		<instance delay = "0">imgD</instance>
+		<instance delay = "0">textH</instance>
+		<instance delay = "3">textI</instance>
 	</event>
 	<event>
-		<instance delay="0">textG</instance>
+		<instance delay = "0">textJ</instance>
 	</event>
 	<event>
+		<instance delay = "0">textK</instance>
+	</event>
+	<event>
+		<instance delay = "0">textL</instance>
+	</event>
+	<event>
+		<instance delay = "0">imgE</instance>
+		<instance delay = "0">textM</instance>
+	</event>
+	<event>
+		<instance delay = "0">imgF</instance>
+		<instance delay = "0">textN</instance>
+	</event>
+	<event>
+		<instance delay = "0">textO</instance>
+	</event>
+	<event>
+		<instance delay = "0">textP</instance>
+		<instance delay = "0">textQ</instance>
+	</event>
+	<event>
+		<instance delay = "0">textP</instance>
+		<instance delay = "0">textQ</instance>
+		<instance delay = "0">textR</instance>
 	</event>
 </data>

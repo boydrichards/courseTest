@@ -16,18 +16,36 @@ function Ctrl_00_020($scope,playFactory){
 		console.log("Guess what the audio is finished with this audio piece: " + audioArray[currentAudio]);
 	});
 	// Get text	
-	$scope.textA = $scope.getXMLNode("textA",1);
-	$scope.textB = $scope.getXMLNode("textB",1);
-	$scope.textC = $scope.getXMLNode("textC",1);
-	$scope.textD = $scope.getXMLNode("textD",1);
-	$scope.textE = $scope.getXMLNode("textE",1);
-	$scope.textF = $scope.getXMLNode("textF",1);
-	$scope.textG = $scope.getXMLNode("textG",1);
-	$scope.textH = $scope.getXMLNode("textH",1);
-	$scope.textI = $scope.getXMLNode("textI",1);
-	$scope.textJ = $scope.getXMLNode("textJ",1);
-	$scope.textK = $scope.getXMLNode("textK",1);
-	$scope.textL = $scope.getXMLNode("textL",1);
+	$scope.img1 = $scope.getXMLNode("img",1);
+	$scope.img2 = $scope.getXMLNode("img",2);
+	$scope.img3 = $scope.getXMLNode("img",3);
+	
+	var pageLoadCounter = 0;
+	console.log("TRAVIS LOOK AT ME");
+	
+	var pageLoadArray = [img1,img2,img3];
+	console.dir(pageLoadArray);
+	alphaOut();
+	loadNextContent();
+	function alphaOut()
+	{
+		console.log("I am in alpha out");
+		for(var k = 0; k < pageLoadArray.length; k++)
+		{
+				TweenMax.to(pageLoadArray[k], 0, {autoAlpha:0});
+		}
+	}
+	
+	function loadNextContent()
+	{
+		console.log("I am in loadNextContent");
+		var delayTime = 1;
+		for(var k = 0; k < pageLoadArray.length; k++)
+		{
+			TweenMax.to(pageLoadArray[k], .25, {autoAlpha:1, delay:delayTime, ease:Power1.easeInOut});
+			delayTime++;
+		}
+	}
 }//Ctrl
 </script>
 
@@ -58,86 +76,31 @@ function Ctrl_00_020($scope,playFactory){
 		margin: 0;
 		padding: 0;
 	}
-	ul li{
-		margin:26px 0px
-	}
-	p#textB{
-		font-size: 15px;
-		color: #777777;
-		text-align: left;
+	img#img1
+	{
 		position:absolute;
-		left: 100px;
-		top: 138px;
-		width: 814px;
-		text-align:left;
+		left: -15px;
+		top: 200px;
+		height:300px;
+	}
+	img#img2
+	{
+		position:absolute;
+		left: 338px;
+		top: 200px;
+		height:300px;
+	}
+	img#img3
+	{
+		position:absolute;
+		left: 690px;
+		top: 200px;
+		height:300px;
 	}
 	
-	p#textC{
-		position:absolute;
-		left: 100px;
-		top: 217px;
-	}
 	
-	p#textD{
-		position:absolute;
-		left: 100px;
-		top: 279px;
-	}
-	
-	p#textE{
-		position:absolute;
-		left: 100px;
-		top: 341px;
-	}
-	
-	p#textF{
-		position:absolute;
-		left: 100px;
-		top: 403px;
-	}
-	
-	p#textG{
-		position:absolute;
-		left: 100px;
-		top: 465px;
-	}
-	
-	p#textH{
-		position:absolute;
-		left: 100px;
-		top: 527px;
-	}
-	input{
-		position:aboslute;
-		left: 0px;
-		top 300px;
-	}
-	div#slider-range-min{
-		top: 400px;
-margin: 0px 0px 0px 0px;
-left: 100px;
-	}
 </style>
 
-
-<p  class="titleText">{{textA}}</p>
-<p id="textB">{{textB}}</p>
-<ul>
-    <li><p class="pageText">{{textC}}</p></li>
-    <li><p class="pageText">{{textD}}</p></li>
-    <li><p class="pageText">{{textE}}</p></li>
-    <li><p class="pageText">{{textF}}</p></li>
-    <li><p class="pageText">{{textG}}</p></li>
-    <li><p class="pageText">{{textH}}</p></li>
-</ul>
-
-<!--
-<p class="sliders" id="slider1">
-  <label for="amount">Maximum price:</label>
-  <input type="text" id="amount" style="border:10; color:red; font-weight:bold;">
-</p>
- 
-<div id="slider-range-min"></div>
--->
-
-
+<img id="img1" ng-src="{{img1}}"/>
+<img id="img2" ng-src="{{img2}}"/>
+<img id="img3" ng-src="{{img3}}"/>

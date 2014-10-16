@@ -5,6 +5,7 @@
 		<instance delay=".25">textB</instance>
 		<instance delay=".25">textB1</instance>
 		<instance delay=".25">textB2</instance>
+		<instance delay=".25">textB3</instance>
 	</event>
 	<event>
 		<instance delay="0">textC</instance>

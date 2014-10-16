@@ -7,15 +7,30 @@ function Ctrl_00_050($scope,playFactory){
 	$scope.textE = $scope.getXMLNode("textE",1);
 	$scope.textF = $scope.getXMLNode("textF",1);
 	$scope.textG = $scope.getXMLNode("textG",1);
-	$scope.img1 = $scope.getXMLNode("imgA",1);
-	$scope.img2 = $scope.getXMLNode("imgB",1);
-	$scope.img3 = $scope.getXMLNode("imgC",1);
+	$scope.textH = $scope.getXMLNode("textH",1);
+	$scope.textI = $scope.getXMLNode("textI",1);
+	$scope.textJ = $scope.getXMLNode("textJ",1);
+	$scope.textK = $scope.getXMLNode("textK",1);
+	$scope.textL = $scope.getXMLNode("textL",1);
+	$scope.textM = $scope.getXMLNode("textM",1);
+	$scope.textN = $scope.getXMLNode("textN",1);
+	$scope.textO = $scope.getXMLNode("textO",1);
+	$scope.textP = $scope.getXMLNode("textP",1);
+	$scope.textQ = $scope.getXMLNode("textQ",1);
+	$scope.textR = $scope.getXMLNode("textR",1);
+	
+	$scope.imgA = $scope.getXMLNode("imgA",1);
+	$scope.imgB = $scope.getXMLNode("imgB",1);
+	$scope.imgC = $scope.getXMLNode("imgC",1);
+	$scope.imgD = $scope.getXMLNode("imgD",1);
+	$scope.imgE = $scope.getXMLNode("imgE",1);
+	$scope.imgF = $scope.getXMLNode("imgF",1);
 	
 	var pageLoadCounter = 0;
 	var currentAudio = 0;
 	var tempAudioArray = Array($scope.pageXML.getElementsByTagName("audio"));
 	var audioArray = Array();
-	var pageLoadArray = [textA,textB,textC,textD,textE,textF,textG,img1,img2,img3];
+	var pageLoadArray = [textA,textB,textC,textD,textE,textF,textG,textH,textI,textJ,textK,textL,textM,textN,textO,textP,textQ,textR,imgA,imgB,imgC,imgD,imgE,imgF];
 	
 	//load transition
 	if (window.XMLHttpRequest){
@@ -25,7 +40,7 @@ function Ctrl_00_050($scope,playFactory){
 		// code for IE6, IE5
 		newXmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 	}
-	newXmlhttp.open("GET","HealthyPractices/transitions/00_050.xml",false);
+	newXmlhttp.open("GET","powerfulPresentation/transitions/00_050.xml",false);
 	newXmlhttp.send();
 	transitionsXMLDoc = newXmlhttp.responseXML; 
 	// Get event nodes
@@ -107,87 +122,191 @@ function Ctrl_00_050($scope,playFactory){
 <style>
 	p.titleText{
 		position:absolute;
-		font-size: 24px;
-		color: #DB3436;
-		text-align: center;
+		font-size: 36px;
+		color: #3E3E3E;
+		text-align: left;
 		width: 800px;
-		left: 88px;
-		top: 66px;
+		left: 35px;
+		top: 50px;
 	}
 	
-	p.bodyText{
-		font-size: 16px;
-		color: #777777;
+	p.bodyTextTitle{
+		font-size: 22px;
+		color: #3E3E3E;
 		text-align: left;
-		left:550PX;
+		left:360px;
 		width: 400px;
-		//height: 50px;
+		margin: 0px;
+	}
+	
+	p.bodyTextBody{
+		font-size: 16px;
+		color: #3E3E3E;
+		text-align: left;
+		margin: 0px;
+		left:360px;
+	}
+	p.bodyTextRed{
+		font-size: 26px;
+		color: #E21717;
+		text-align: right;
+		left:880px;
+		text-shadow: 0.01em 0.01em 0.05em #333;
+		margin: 0px;
 	}
 	
 	p#textB{
 		position:absolute;
-		width:800px;
-		left: 88px;
-		top: 100px;
-		text-align: center;
-		vertical-align: middle;
+		top: 134px;
 	}
 	
 	p#textC{
 		position:absolute;
-		color: #30a0cf;
-		top: 310px;
-		left:540PX;
+		top: 175px;
 	}
-	
 	p#textD{
 		position:absolute;
-		top: 340px;
+		top: 200px;
 	}
 	
 	p#textE{
 		position:absolute;
-		top: 370px;
+		top: 225px;
 	}
 	
 	p#textF{
 		position:absolute;
-		top: 400px;
+		top: 250px;
 	}
 	
 	p#textG{
 		position:absolute;
-		top: 430px;
+		top: 275px;
 	}
 	
-	img#img1{
+	p#textH{
 		position:absolute;
-		left: 3px;
-		top: 345px;
-		width:1016px;
-		height:138px;
+		top: 375px;
 	}
 	
-	img#img2{
+	p#textI{
 		position:absolute;
-		left: 15px;
+		top: 406px;
+	}
+	
+	p#textJ{
+		position:absolute;
+		top: 431px;
+	}
+	
+	p#textK{
+		position:absolute;
+		top: 456px;
+	}
+	
+	p#textL{
+		position:absolute;
+		top: 481px;
+	}
+	
+	p#textM{
+		position:absolute;
+		top: 105px;
+		width:100px;
+		left:770px;
+		color:#80807B;
+		font-size: 36px;
+		
+	}
+	
+	p#textN{
+		position:absolute;
+		top: 420px;
+		left:880px;
+	}
+	
+	p#textO{
+		position:absolute;
+		top: 450px;
+		left:925px;
+	}
+	
+	p#textP{
+		position:absolute;
+		top: 480px;
+		left:805px;
+	}
+	p#textQ{
+		position:absolute;
+		top: 510px;
+		left: 920px;
+	}
+	
+	p#textR{
+		position:absolute;
+		top: 540px;
+		left: 815px;
+	}
+	
+	img#imgA{
+		position:absolute;
+		left: 30px;
+		top: 120px;
+		height:250px;
+	}
+	
+	img#imgB{
+		position:absolute;
+		left: 340px;
+		top: 127px;
+	}
+	
+	img#imgC{
+		position:absolute;
+		left: 30px;
+		top: 370px;
+		height:250px;
+	}
+	
+	img#imgD{
+		position:absolute;
+		left: 340px;
+		top: 370px;
+	}
+	img#imgE{
+		position:absolute;
+		left: 750px;
 		top: 100px;
 	}
 	
-	img#img3{
+	img#imgF{
 		position:absolute;
-		left: 800px;
-		top: 120px;
+		left: 870px;
+		top: 320px;
 	}
 </style>
-<img id="img1" ng-src="{{img1}}"/>
-<img id="img2" ng-src="{{img2}}"/>
-<img id="img3" ng-src="{{img3}}"/>
+<img id="imgA" ng-src="{{imgA}}"/>
+<img id="imgB" ng-src="{{imgB}}"/>
+<img id="imgC" ng-src="{{imgC}}"/>
+<img id="imgD" ng-src="{{imgD}}"/>
+<img id="imgE" ng-src="{{imgE}}"/>
+<img id="imgF" ng-src="{{imgF}}"/>
 
 <p class="titleText" id="textA">{{textA}}</p>
-<p class="bodyText" id="textB">{{textB}}</p>
-<p class="bodyText" id="textC">{{textC}}</p>
-<p class="bodyText" id="textD">{{textD}}</p>
-<p class="bodyText" id="textE">{{textE}}</p>
-<p class="bodyText" id="textF">{{textF}}</p>
-<p class="bodyText" id="textG">{{textG}}</p>
+<p class="bodyTextTitle" id="textB">{{textB}}</p>
+<p class="bodyTextBody" id="textC">{{textC}}</p>
+<p class="bodyTextBody" id="textD">{{textD}}</p>
+<p class="bodyTextBody" id="textE">{{textE}}</p>
+<p class="bodyTextBody" id="textF">{{textF}}</p>
+<p class="bodyTextBody" id="textG">{{textG}}</p>
+<p class="bodyTextTitle" id="textH">{{textH}}</p>
+<p class="bodyTextBody" id="textI">{{textI}}</p>
+<p class="bodyTextBody" id="textJ">{{textJ}}</p>
+<p class="bodyTextBody" id="textK">{{textK}}</p>
+<p class="bodyTextBody" id="textL">{{textL}}</p>
+<p class="bodyTextTitle" id="textM">{{textM}}</p>
+<p class="bodyTextRed" id="textN">{{textN}}</p>
+<p class="bodyTextRed" id="textO">{{textO}}</p>
+<p class="bodyTextRed" id="textP">{{textP}}</p>
+<p class="bodyTextRed" id="textQ">{{textQ}}</p>
+<p class="bodyTextRed" id="textR">{{textR}}</p>

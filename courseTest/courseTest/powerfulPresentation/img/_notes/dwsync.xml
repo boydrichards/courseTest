@@ -31,7 +31,7 @@
 <file name="00_097.png" server="ftp.boydrichards.com" local="130555519180386424" remote="130555518600000000" Dst="2" />
 <file name="00_098.png" server="ftp.boydrichards.com" local="130555519180406425" remote="130555518600000000" Dst="2" />
 <file name="00_102.png" server="ftp.boydrichards.com" local="130555519183036576" remote="130555518600000000" Dst="2" />
-<file name="background.png" server="ftp.boydrichards.com" local="130555519188256874" remote="130555518600000000" Dst="2" />
+<file name="background.png" server="ftp.boydrichards.com" local="130556156222132639" remote="130555546800000000" Dst="2" />
 <file name="00_101.png" server="ftp.boydrichards.com" local="130555519191837079" remote="130555518600000000" Dst="2" />
 <file name="00_100.png" server="ftp.boydrichards.com" local="130555519192027090" remote="130555518600000000" Dst="2" />
 <file name="player_left.png" server="ftp.boydrichards.com" local="130555519203877768" remote="130555518600000000" Dst="2" />
@@ -39,4 +39,12 @@
 <file name="player.png" server="ftp.boydrichards.com" local="130555519203927771" remote="130555518600000000" Dst="2" />
 <file name="player_right.png" server="ftp.boydrichards.com" local="130555519208038006" remote="130555518600000000" Dst="2" />
 <file name="player_right_active.png" server="ftp.boydrichards.com" local="130555519208068008" remote="130555518600000000" Dst="2" />
+<file name="00_011.png" server="ftp.boydrichards.com" local="130556156203761589" remote="130555549800000000" Dst="2" />
+<file name="00_012.png" server="ftp.boydrichards.com" local="130556156206861766" remote="130555549800000000" Dst="2" />
+<file name="00_013.png" server="ftp.boydrichards.com" local="130556156209291905" remote="130555549800000000" Dst="2" />
+<file name="00_014.png" server="ftp.boydrichards.com" local="130556156209341908" remote="130555679400000000" Dst="2" />
+<file name="00_010.png" server="ftp.boydrichards.com" local="130556156209421912" remote="130555549800000000" Dst="2" />
+<file name="00_022.png" server="ftp.boydrichards.com" local="130556156216092294" remote="130555702800000000" Dst="2" />
+<file name="00_020.png" server="ftp.boydrichards.com" local="130556156216162298" remote="130555702800000000" Dst="2" />
+<file name="00_021.png" server="ftp.boydrichards.com" local="130556156216322307" remote="130555702800000000" Dst="2" />
 </dwsync>

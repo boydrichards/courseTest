@@ -1,57 +1,43 @@
 <course>
 	<courseSetup>
-		<title>Healthy Practices</title>
-		<background>HealthyPractices/img/background.png</background>
+		<title>Powerful Practices</title>
+		<background>powerfulPresentation/img/background.png</background>
 	</courseSetup>
 
 	<page>
 		<view>00_010</view>
-		<title>Healthy Practices</title>
-		<textA>THE BASIC INS AND OUTS OF NUTRITION, EXERCISE, AND SAFETY ON THE JOB</textA>
-		<img>HealthyPractices/img/00_010-1.png</img>
-		<img>HealthyPractices/img/00_010-2.png</img>
+		<img>powerfulPresentation/img/00_010.png</img>
+		<img>powerfulPresentation/img/00_011.png</img>
+		<img>powerfulPresentation/img/00_012.png</img>
+		<img>powerfulPresentation/img/00_013.png</img>
+		<img>powerfulPresentation/img/00_014.png</img>
 	</page>
 	
 	<page>
 		<view>00_020</view>
-		<textA>Introduction</textA>
-		<textB>Rate yourself on each statement below. Click and drag the dot to the number you feel best fits you. When you are finished, click the done button below.</textB>
-		<textC>1) I am focused and energetic throughout the day.</textC>
-		<textD>2) I exercise on a daily basis.</textD>
-		<textE>3) I eat healthy foods</textE>
-		<textE2>(fruits, vegitables, whole grains, home cooked, etc.)</textE2>
-		<textF>4) I get 7-8 hours of sleep a night.</textF>
-		<textG>5) I follow job safety guidelines on a regualr basis.</textG>
-		<textH>6) Overall, I feel generally healthy and well.</textH>
-		<textJ>Never</textJ>
-		<textI>Often</textI>
-		<textK>DONE</textK>
-		<textL>Your Score:</textL>
-		<textM>1</textM>
-		<textN>2</textN>
-		<textO>3</textO>
-		<textP>4</textP>
-		<textQ>5</textQ>
-		<img>HealthyPractices/img/00_020-1.png</img>
-		<audio>audio/eng/00_021.mp3</audio>
-		<audio>audio/eng/00_021.mp3</audio>
-		<audio1>audio/eng/00_022.mp3</audio1>
-		<audio2>audio/eng/00_023.mp3</audio2>
-		<audio3>audio/eng/00_024.mp3</audio3>
+		<img>powerfulPresentation/img/00_020.png</img>
+		<img>powerfulPresentation/img/00_021.png</img>
+		<img>powerfulPresentation/img/00_022.png</img>
+		<audio>audio/eng/00_020.mp3</audio>
 	</page>
 	<page>
 		<view>00_030</view>
 		<textA>Course Overview</textA>
-		<textB>1.  Nutrition</textB>
-		<textB1>2.  Exercise</textB1>
-		<textB2>3.  Safety</textB2>
+		<textB>1.  Content</textB>
+		<textB1>2.  Media</textB1>
+		<textB2>3.  Presentation skills</textB2>
+		<textB2>3.  Environment</textB2>
 		<textC>Course Test</textC>
 		<textD>Passing score:</textD>
-		<textE>80%</textE>
+		<textE>%</textE>
 		<textF>You can take the test as many times as needed.</textF>
-		<textG>35 minutes to complete.</textG>
-		<imgA>HealthyPractices/img/00_030.png</imgA>
-		<imgB>HealthyPractices/img/00_031.png</imgB>
+		<textG>30 minutes to complete.</textG>
+		<textB>1.  Content</textB>
+		<textB1>2.  Media</textB1>
+		<textB2>3.  Presentation skills</textB2>
+		<textB3>4.  Environment</textB3>
+		<imgA>powerfulPresentation/img/00_030.png</imgA>
+		<imgB>powerfulPresentation/img/00_031.png</imgB>
 		<audio>audio/eng/00_030.mp3</audio>
 		<audio>audio/eng/00_031.mp3</audio>
 		<audio>audio/eng/00_032.mp3</audio>
@@ -60,77 +46,112 @@
 	</page>
 	<page>
 		<view>00_040</view>
-		<textA>MEET STEPHEN</textA>
-		<textB>Click the arrows on the left and right sides of the screen.</textB>
-		<textC>1             2             3             4             5             6             7</textC>
-		<textD>Stephen</textD>
-		<textE>Jason</textE>
-		<textF>I don't understand, Frank.  I mean, I'm not overweight and I don't have unhealthy eating habits.  How could I have done so badly on my annual physical?</textF>
-		<textG>The doctor told me I have high cholesterol and that I should start watching my weight!  I just don't see how I could have gotten here!</textG>
-		<textH>I know how you feel.  I have a checkup with the doctor pretty soon, and I'm afraid he'll tell me the same thing.  Do you exercise?</textH>
-		<textI>I wish I had time to exercise, but with work and my family, I just don't have time!</textI>
-		<textJ>I've tried fad diets before, and those just make me even more tired and irritable.</textJ>
-		<textK>My supervisor even wrote me up for being unsafe at work!</textK>
-		<textL>I don't want to do anything extreme like another fad diet; I just don't know what else to try!</textL>
-		<textM>Click Next to continue.</textM>
-		<imgA>HealthyPractices/img/00_040.png</imgA>
-		<imgB>HealthyPractices/img/00_041.png</imgB>
-		<imgC>HealthyPractices/img/00_042.png</imgC>
-		<imgD>HealthyPractices/img/00_043.png</imgD>
+		<textA>Best and Worst</textA>
+		<textB>Think about some of the best presentations you have seen, heard, or experienced. What made each of those presentations great? List specific factors such as engaging presenter, great opening hook, effective media, etc. </textB>
+		<textC>Now recall the worst presentations you have been subjected to. What made you pity the presenter, want to walk out the door, or feel like being present was a waste of your time? List specific factors.</textC>
+		<textD>Which of the factors that you listed above most accurately reflect your own presentations? </textD>
+		<textE>Enter your response here.</textE>
+		<textF>Enter your response here.</textF>
+		<textG>Enter your response here.</textG>
+		<textH>(Answer each question. You must answer each question to continue.)</textH>
 		<audio>audio/eng/00_040.mp3</audio>
-		<audio>audio/eng/00_041.mp3</audio>
 	</page>
 	<page>
 		<view>00_050</view>
-		<textA>Stephen</textA>
-		<textB>(continued)</textB>
-		<textC>A few basic tips that can </textC>
-		<textD>increase your energy and focus </textD>
-		<textE>decrease your cholesterol and blood pressure </textE>
-		<textF>strengthen your immune system</textF>
-		<textG>achieve your ideal weight and body mass</textG>
-		<imgA>HealthyPractices/img/00_050.png</imgA>
-		<imgB>HealthyPractices/img/00_051.png</imgB>
-		<imgC>HealthyPractices/img/00_052.png</imgC>
+		<textA>POWERFUL vs. Pitiful</textA>
+		<textB>POWERFUL Presentations</textB>
+		<textC>Motivate</textC>
+		<textD>Inspire</textD>
+		<textE>Persuade</textE>
+		<textF>Captivate</textF>
+		<textG>Educate</textG>
+		<textH>Pitiful Presentations</textH>
+		<textI>Boring</textI>
+		<textJ>Awkward</textJ>
+		<textK>Uncomfortable</textK>
+		<textL>Waste of Time</textL>
+		<textM>Factors that Influence Presentation Quality</textM>
+		<textN>CONTENT</textN>
+		<textO>MEDIA</textO>
+		<textP>PRESENTATION</textP>
+		<textQ>SKILLS</textQ>
+		<textR>ENVIRONMENT</textR>
+		<imgA>powerfulPresentation/img/00_050.png</imgA>
+		<imgB>powerfulPresentation/img/00_051.png</imgB>
+		<imgC>powerfulPresentation/img/00_052.png</imgC>
+		<imgD>powerfulPresentation/img/00_053.png</imgD>
+		<imgE>powerfulPresentation/img/00_054.png</imgE>
+		<imgF>powerfulPresentation/img/00_055.png</imgF>
 		<audio>audio/eng/00_050.mp3</audio>
 		<audio>audio/eng/00_051.mp3</audio>
 		<audio>audio/eng/00_052.mp3</audio>
 		<audio>audio/eng/00_053.mp3</audio>
 		<audio>audio/eng/00_054.mp3</audio>
 		<audio>audio/eng/00_055.mp3</audio>
+		<audio>audio/eng/00_056.mp3</audio>
+		<audio>audio/eng/00_057.mp3</audio>
+		<audio>audio/eng/00_058.mp3</audio>
+		<audio>audio/eng/00_059.mp3</audio>
+		<audio>audio/eng/00_059a.mp3</audio>
+		<audio>audio/eng/00_059b.mp3</audio>
+		<audio>audio/eng/00_059c.mp3</audio>
+		<audio>audio/eng/00_059d.mp3</audio>
 	</page>
 	<page>
 		<view>00_060</view>
-		<textA>Section One</textA>
-		<textB>NUTRITION</textB>
-		<imgA>HealthyPractices/img/00_060.png</imgA>
-		<imgB>HealthyPractices/img/00_061.png</imgB>
+		<textA>Content </textA>
+		<textB>(Click each of these questions to learn more. You must click each question to continue.)</textB>
+		<textC>Audiences decide if a presentation is worth paying attention to in the first one-to-two minutes.&#xD;&#xD;Lead out with a really good hook.&#xD;&#xD;A hook is something that grabs people's attention. </textC>
+		<textD>If the information you present is not complete, the audience may question your credibility.&#xD;&#xD;Consider the answers to the 5w's and 2 h's: who, what, when, where, why, how, and how much.</textD>
+		<textE>Make sure that not only will your message be understood, but also not be misunderstood.&#xD;&#xD;Have someone who is not familiar with your content read over your notes.</textE>
+		<textF>Ensure that everything you include in the presentation connects logically together and is consistent with your main message.</textF>
+		<textG>What do you want your audience to do as a result of the presentation?&#xD;&#xD;The more specific the call to action is, the more successful it will be.</textG>
+		<imgA>powerfulPresentation/img/00_060.png</imgA>
+		<imgB>powerfulPresentation/img/00_061.png</imgB>
+		<audio>audio/eng/00_060.mp3</audio>
+		<audio>audio/eng/00_061.mp3</audio>
+		<audio>audio/eng/00_062.mp3</audio>
+		<audio>audio/eng/00_063.mp3</audio>
+		<audio>audio/eng/00_064.mp3</audio>
+		<audio>audio/eng/00_065.mp3</audio>
+		<audio>audio/eng/00_066.mp3</audio>
 	</page>
 	<page>
 		<view>00_070</view>
-		<textA>HEALTHY PRACTICES IN NUTRITION</textA>
-		<textB>Five Basic Nutrition Tips</textB>
-		<textC>1.  Don't think like a caveman</textC>
-		<textD>2.  Control your portion sizes</textD>
-		<textE>3.  Eat naturally</textE>
-		<textF>4.  Drink plenty of water</textF>
-		<textG>5.  Be patient with yourself</textG>
-		<imgA>HealthyPractices/img/00_070.png</imgA>
-		<imgB>HealthyPractices/img/00_071.png</imgB>
+		<textA>Media</textA>
+		<textB>Media Refers to:</textB>
+		<textC>slides (PowerPoint, Keynote, etc.)</textC>
+		<textD>handouts</textD>
+		<textE>flipcharts</textE>
+		<textF>whiteboard or chalkboard</textF>
+		<textG>music</textG>
+		<textH>video</textH>
+		<imgA>powerfulPresentation/img/00_070.png</imgA>
+		<imgB>powerfulPresentation/img/00_071.png</imgB>
+		<imgC>powerfulPresentation/img/00_072.png</imgC>
 		<audio>audio/eng/00_070.mp3</audio>
 		<audio>audio/eng/00_071.mp3</audio>
 		<audio>audio/eng/00_072.mp3</audio>
 		<audio>audio/eng/00_073.mp3</audio>
 		<audio>audio/eng/00_074.mp3</audio>
 		<audio>audio/eng/00_075.mp3</audio>
+		<audio>audio/eng/00_076.mp3</audio>
+		<audio>audio/eng/00_077.mp3</audio>
 	</page>
 	<page>
 		<view>00_080</view>
-		<textA>Don't Think Like a Caveman</textA>
+		<textA>Media</textA>
+		<textB>2</textB>
+		<textC>Media Refers to:</textC>
+		<textD>slides (PowerPoint, Keynote, etc.)</textD>
+		<textE>handouts</textE>
+		<textF>flipcharts</textF>
+		<textG>whiteboard or chalkboard</textG>
+		<textH>music</textH>
+		<textI>video</textI>
 		<imgA>HealthyPractices/img/00_080.png</imgA>
 		<imgB>HealthyPractices/img/00_081.png</imgB>
-		<imgC>HealthyPractices/img/00_082.png</imgC>
-		<imgD>HealthyPractices/img/00_083.png</imgD>
+
 		<audio>audio/eng/00_080.mp3</audio>
 		<audio>audio/eng/00_081.mp3</audio>
 		<audio>audio/eng/00_082.mp3</audio>

@@ -1,0 +1,166 @@
+
+
+body{
+	background-color:grey;
+	padding:0;
+	margin:0;
+}
+
+
+
+*{
+font-family:arial;
+}
+
+#player{
+	width:1014px;
+	height:693px;
+	background-image:url("../img/player/background.png");
+	transform-origin: top left;
+	-webkit-transform-origin: top left;
+}
+#container{
+	height:693px;
+	width: 1024px;
+	/*background-image: @background-image;*/
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+	left: 0;
+	top: 0;
+	overflow:hidden;
+}
+#content{
+	height: 100%;
+	overflow:hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+
+}
+#header{
+	height: 98px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	background-image:url("../img/player/header.png");
+	background-size:100% 100%;
+	
+	h1{
+		color:white;
+		padding: 0;
+		font-size: 21px;
+		font-weight: normal;
+		margin: 5px 0 0 24px;
+	}
+}
+
+#leftColumn{
+	height: 637px;
+	position: absolute;
+	left: 0;
+	top: 98px;
+	width: 13px;
+	background-image:url("../img/player/leftSide.png");
+	background-size:100% 100%;
+}
+
+#rightColumn{
+	height: 637px;
+	position: absolute;
+	right: 0;
+	top: 98px;
+	width: 8px;
+	background-image:url("../img/player/rightSide.png");
+	background-size:100% 100%;
+}
+
+#footer{
+	height: 70px;
+	position: absolute;
+	left:0;
+	bottom:0;
+	width: 100%;
+	background-image:url("../img/player/bottomPlayer.png");
+	background-size:100% 100%;
+}
+
+
+.play-and-pause{
+	width:30px;
+	height:38px;
+	position: absolute;
+	top: 15px;
+	left: 200px;
+	cursor:pointer;
+	
+	.play_btn,
+	.pause_btn{
+		width:100%;
+		height:100%;
+		background-repeat:no-repeat;
+	}	
+	.play_btn{
+		background-image:url("../img/player/play.png");
+	}
+	.pause_btn{
+		background-image:url("../img/player/pause.png");
+	}
+}
+
+
+.reload_btn{
+	width:40px;
+	height:39px;
+	position:absolute;
+	top:7px;
+	right:300px;
+	background-image:url("../img/player/replay.png");
+	cursor:pointer;
+}
+						
+#nav{
+	overflow:hidden;
+
+	.pageCounter{
+		width: 50px;
+		text-align: center;
+		position: absolute;
+		top: 5px;
+		right: 202px;
+		margin: 10px 0 0 0;
+		color: white;
+	}
+	div.back-enabled,
+	div.next-enabled{
+		width:100%;
+		height:100%;
+	}
+	div.back,
+	div.next{
+		width:39px;
+		height:34px;
+		cursor:pointer;
+		position: absolute;
+		top: 0;
+		margin: 10px 0 0 0;
+	}
+	div.back{
+		background-image:url("../img/player/player_left.png");
+		right: 245px;
+		
+		div.back-enabled{
+			background-image:url("../img/player/player_left_active.png");
+		}
+	}
+	div.next{
+		background-image:url("../img/player/player_right.png");
+		right: 169px;
+		
+		div.next-enabled{
+			background-image:url("../img/player/player_right_active.png");
+		}
+	}
+}

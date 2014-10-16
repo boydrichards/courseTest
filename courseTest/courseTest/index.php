@@ -16,7 +16,10 @@
 
 		<!-- custom -->
 		<script src="js/controller.js" type="text/javascript"></script>
-        <script src="HealthyPractices/js/00_010.js" type="text/javascript"></script>
+       
+        <!-- 
+        <script src="powerfulPresentation/js/00_020.js" type="text/javascript"></script>
+        -->
 		
 		<!-- Custom CSS -->
 		<link href="css/style.less" rel="stylesheet/less" type="text/css"/>
@@ -29,17 +32,16 @@
 
 	</head>
 	<body ng-controller="playerCtrl">
-	
 		<div id="player">
 			<div id="container">
-				<div id="header">
-					<h1>{{pageTitle}}</h1>
-				</div><!-- header -->
-                
                  <div id="content">
 					<div ng-view></div>
 				</div><!-- content -->
-                
+                 <div id="header">
+					<h1>{{pageTitle}}</h1>
+				</div><!-- header -->
+               <div id="leftColumn"></div>
+               <div id="rightColumn"></div>
 				<div id="footer">
 					<div id="nav">
 						<div class="play-and-pause">

@@ -1,21 +1,34 @@
 <script>
 
 function Ctrl_00_070($scope, playFactory){
+	console.log("1");
 	$scope.textA = $scope.getXMLNode("textA",1);
+	console.log("1.1");
 	$scope.textB = $scope.getXMLNode("textB",1);
+	console.log("1.2");
 	$scope.textC = $scope.getXMLNode("textC",1);
+	console.log("1.3");
 	$scope.textD = $scope.getXMLNode("textD",1);
+	console.log("1.4");
 	$scope.textE = $scope.getXMLNode("textE",1);
+	console.log("1.5");
 	$scope.textF = $scope.getXMLNode("textF",1);
+	console.log("1.6");
 	$scope.textG = $scope.getXMLNode("textG",1);
-	$scope.img1 = $scope.getXMLNode("imgA",1);
-	$scope.img2 = $scope.getXMLNode("imgB",1);
-	
+	console.log("1.7");
+	$scope.textH = $scope.getXMLNode("textH",1);
+	console.log("1.8");
+	$scope.imgA = $scope.getXMLNode("imgA",1);
+	console.log("1.9");
+	$scope.imgB = $scope.getXMLNode("imgB",1);
+	console.log("1.91");
+	$scope.imgC = $scope.getXMLNode("imgC",1);
+	console.log("2");
 	var pageLoadCounter = 0;
 	var currentAudio = 0;
 	var tempAudioArray = Array($scope.pageXML.getElementsByTagName("audio"));
 	var audioArray = Array();
-	var pageLoadArray = [textA,textB,textC,textD,textE,textF,textG,img1,img2];
+	var pageLoadArray = [textA,textB,textC,textD,textE,textF,textG,imgA,imgB];
 	//load transition
 	if (window.XMLHttpRequest){
 		// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -34,7 +47,7 @@ function Ctrl_00_070($scope, playFactory){
 	{
 		audioArray.push(tempAudioArray[0][i]['innerHTML']);
 	}
-	
+	console.log("3");
 	alphaOut();
 	loadNextContent();
 	playFactory.setAudio(audioArray);
@@ -107,77 +120,106 @@ function Ctrl_00_070($scope, playFactory){
 
 <style>
 	p.titleText{
-		position:absolute;
-		font-size: 24px;
-		color: #DB3436;
-		text-align: center;
-		width: 1019px;
-		left: 0px;
-		top: 66px;
+		font-size: 36px;
+		color: #E21717;
+		text-align: left;
+		text-shadow: 0.03em 0.03em 0.05em #333;
+		margin: 0px;
+		position: absolute;
+		top: 97px;
+		left: 80px;
+		font-weight: bold;
 	}
 	
-	p.bodyText{
-		font-size: 19px;
-		color: #777777;
+	p.bodyTextTitle{
+		font-size: 22px;
+		color: #3E3E3E
 		text-align: left;
-		left:600PX;
+		left:360px;
 		width: 400px;
-		//height: 50px;
+		margin: 0px;
 	}
+	
+	p.bodyTextBody{
+		font-size: 16px;
+		color: #3E3E3E;
+		text-align: left;
+		margin: 0px;
+		left:360px;
+	}
+	
 	
 	p#textB{
 		position:absolute;
-		color: #30a0cf;
-		top: 310px;
-		left:590px;
+		top: 160px;
+		left:525px;
 	}
 	
 	p#textC{
 		position:absolute;
-		top: 335px;
+		left: 540px;
+		top: 190px;
 	}
 	
 	p#textD{
 		position:absolute;
-		top: 360px;
+		top: 220px;
+		left: 540px;
 	}
 	
 	p#textE{
 		position:absolute;
-		top: 385px;
+		left: 540px;
+		top: 250px;
 	}
 	
 	p#textF{
 		position:absolute;
-		top: 410px;
+		left: 540px;
+		top: 280px;
 	}
 	
 	p#textG{
 		position:absolute;
-		top: 435px;
+		top: 310px;
+		left: 540px;
 	}
 	
-	img#img1{
+	p#textH{
 		position:absolute;
-		left: 3px;
-		top: 345px;
-		width:1016px;
-		height:138px;
+		top: 340px;
+		left: 540px;
 	}
 	
-	img#img2{
-		position:absolute;
+	img#imgA{
+		position: absolute;
 		left: 75px;
+		top: 140px;
+		margin: 0px;
+		width: 400px;
+	}
+	
+	img#imgB{
+		position: absolute;
+		left: 40px;
+		top: 100px;
+	}
+	
+	img#imgC{
+		position: absolute;
 		top: 150px;
+		left: 500px;
 	}
 	
 </style>
-<img id="img1" ng-src="{{img1}}"/>
-<img id="img2" ng-src="{{img2}}"/>
+<img id="imgA" ng-src="{{imgA}}"/>
+<img id="imgB" ng-src="{{imgB}}"/>
+<img id="imgC" ng-src="{{imgC}}"/>
 <p class="titleText" id="textA">{{textA}}</p>
-<p class="bodyText" id="textB">{{textB}}</p>
-<p class="bodyText" id="textC">{{textC}}</p>
-<p class="bodyText" id="textD">{{textD}}</p>
-<p class="bodyText" id="textE">{{textE}}</p>
-<p class="bodyText" id="textF">{{textF}}</p>
-<p class="bodyText" id="textG">{{textG}}</p>
+<p class="bodyTextTitle" id="textB">{{textB}}</p>
+<p class="bodyTextBody" id="textC">{{textC}}</p>
+<p class="bodyTextBody" id="textD">{{textD}}</p>
+<p class="bodyTextBody" id="textE">{{textE}}</p>
+<p class="bodyTextBody" id="textF">{{textF}}</p>
+<p class="bodyTextBody" id="textG">{{textG}}</p>
+<p class="bodyTextBody" id="textH">{{textH}}</p>
